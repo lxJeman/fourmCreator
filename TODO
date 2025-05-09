@@ -2,10 +2,10 @@
 
 1. **User Authentication & Security**
 
-   * Basic Auth (Login/Logout/Register)
-   * Email Verification
-   * Password Reset
-   * Captcha Integration (for signup/posting)
+   * Basic Auth (Login/Logout/Register) - DONE
+   * Email Verification - PAID VERSION
+   * Password Reset - PAID VERSION
+   * Captcha Integration (for signup/posting) - PAID VERSION
 
 2. **Forum Basics**
 
