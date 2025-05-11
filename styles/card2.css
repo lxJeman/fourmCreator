@@ -1,0 +1,46 @@
+.parent {
+    display: flex;
+    justify-content: center;    /* center horizontally */
+    align-items: center;        /* center vertically */
+    min-height: 100vh;          /* full viewport height */
+    padding: 2rem;              /* optional: avoid touching edges on small screens */
+    box-sizing: border-box;     /* make padding safe */
+    background-color: #f4f5f7;  /* Light background for better contrast */
+}
+  
+.card {
+    width: 100%;
+    max-width: 900px;            /* Increased width for better layout */
+    height: auto;                /* let it grow naturally if needed */
+    aspect-ratio: 3 / 4;         /* keeps height proportional to width */
+    background: #ffffff;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px,
+                rgba(0, 0, 0, 0.1) 0px 1px 3px;
+    border-radius: 8px;
+}
+
+.card__body {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 1.5rem;
+    max-width: 25ch;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* SimpleMDE specific styles */
+.CodeMirror {
+    min-height: 200px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.CodeMirror-focused {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.editor-toolbar {
+    border-radius: 5px;
+}

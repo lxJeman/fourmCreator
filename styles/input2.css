@@ -1,0 +1,61 @@
+.input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+  }
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+    .input-style::placeholder {
+        color: #aaa;
+        font-style: italic;
+    }
+
+
+input.card__body {
+    width: calc(100% - 3rem); /* Account for padding */
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem auto;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.emoji-btn {
+    padding: 5px 10px;
+    background: none;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.emoji-btn:hover {
+    border-color: #007bff;
+}
+
+/* SimpleMDE customization */
+.CodeMirror {
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.CodeMirror-focused {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.editor-toolbar {
+    border: none;
+    border-radius: 5px;
+}
