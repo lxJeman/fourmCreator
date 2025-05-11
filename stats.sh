@@ -1,0 +1,1 @@
+git ls-files '*.php' '*.css'  '*.js' | xargs wc -l
